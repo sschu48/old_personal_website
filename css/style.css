@@ -1,0 +1,20 @@
+/*navigation customization*/
+.nav {
+	
+}
+
+.nav-logo {
+	float: left;
+	padding-right: 50px;
+}
+
+.nav-menu {
+	float: inherit;
+}
+
+/*section 1 customization*/
+.section1 {
+	background-color: #242424;
+	height: 500px;
+	width: auto;
+}
