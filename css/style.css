@@ -4,15 +4,6 @@
 	text-align: center;
 }
 
-.text
-{
-	transition: 250ms;
-}
-
-.text:hover{
-	transform: translateY(-10px); 
-}
-
 .pilot-container
 {
 	padding: 2%;
