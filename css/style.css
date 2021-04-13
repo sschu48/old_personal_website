@@ -3,3 +3,74 @@
 	position: absolute;;
 	text-align: center;
 }
+
+.text
+{
+	transition: 250ms;
+}
+
+.text:hover{
+	transform: translateY(-10px); 
+}
+
+.pilot-container
+{
+	padding: 2%;
+}
+
+.cachet-container
+{
+	padding: 2%;
+}
+
+.pilot
+{
+	position: relative;
+
+}
+
+.pilot .text-wrapper
+{
+	position: relative;
+  	display: inline-block;
+  	padding-top: 0.2em;
+  	padding-right: 0.05em;
+  	padding-bottom: 0.1em;
+  	overflow: hidden;
+}
+
+.pilot .letters
+{
+	display: inline-block;
+  	line-height: 1em;
+  	transform-origin: 0 0;
+}
+
+.pilot-image 
+{
+	transition: transform 250ms;
+}
+
+.pilot-image:hover
+{
+	transform: translateY(-10px);
+}
+
+.cachet-image
+{
+	transition: transform 250ms;
+}
+
+.cachet-image:hover{
+	transform: translateY(-10px);
+}
+
+.code-image
+{
+	transition: 250ms;
+}
+
+.code-image:hover
+{
+	transform: translateY(-10px);
+}

@@ -8,33 +8,60 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
 </head>
-<body style="background-color: oldlace; margin: 0;">
+<body style="background-color: #4063ff; margin: 0;">
+  
   <!-- whole body -->
 	<div class="container-fluid">
+
   	<!-- Main -->
-    <div class="row" style="padding-top: 10%; padding-bottom: 5%; padding-left: 5%; padding-right: 5%;">
+    <div class="row" style="padding-top: 5%; padding-bottom: 1%; padding-left: 5%; padding-right: 5%;">
       <div class="col-lg" style="min-height: 100%;">
         <div class="text-center">
-          <h1><b style="font-size: 68px;">SEAN SCHUMACHER</b></h1>
+          <h1><b style="font-size: 68px; color: white;">SEAN SCHUMACHER</b></h1>
         </div>
       </div>
     </div>
 
     <!-- Image Container -->
+
+    <!-- Text For Cachet Container -->
+    <h1 class="text-center text" style="z-index: 1; text-align: center; color: white; position: relative; top: 1250px; font-size: 80px;">ENTREPENEUR</h1>
+
     <div class="container-fluid">
-      <div class="row justify-content-start">
-        <div class="col-4">
-          <img src="assets\IMG_0256_jpg.jpg" alt="image plane" style="width: 100%; object-fit: cover; padding: 5%;">
+
+      <!-- Pilot Container -->
+      <div class="row justify-content-start pilot-container">
+        <div class="col-md-4">
+          <a href="pages/pilot.html" target="">
+              <img class="pilot-image" src="assets\IMG_0256_jpg.jpg" alt="image plane" style="width: 100%; object-fit: cover; padding: 5%;">
+          </a>
         </div>
-        <div class="col-8 text-center my-auto">
-          <h2 class="display-1" style="font-size: 80px;">PILOT</h2>
+        <div class="col-md-8 text-center my-auto pilot">
+          <span class="text-wrapper">
+            <h1 class="text" style="font-size: 80px; color: white;">PILOT</h1>
+          </span>
         </div>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-4 text-center my-auto">
-          <img src="assets\IMG_0326.jpg" alt="plane night" style="width: 100%; object-fit: cover; padding: 5%;">
-          <h1 class="display-1" style="color: blue; font-size: 80px; position: relative; top: 50%; ">CREATOR</h1>
+
+      <!-- Cachet Container-->
+      <div class="row justify-content-center cachet-container">
+        <div class="col-md-4 text-center my-auto">
+          <a href="pages/entrepeneur.html" target="">
+              <img class="cachet-image" src="assets/cachet-image.jpeg" alt="" style="width: 100%; object-fit: cover; padding: 5%;">
+          </a>
         </div>
+      </div>
+    </div>
+
+    <!-- Creator Container -->
+    <div class="row justify-content-center cachet-container">
+      <div class="col-md-8 text-center my-auto creator">
+        <h1 class="text" style="font-size: 80px; color: white;">CREATOR</h1>
+      </div>
+      <div class="col-md-4">
+        <a href="pages/creator.html" target="">
+          <img class="code-image" src="assets/code.jpg" alt="" style="width: 100%; object-fit: cover; padding: 5%;">
+        </a>
       </div>
     </div>
     <!-- Canvas -->
@@ -89,8 +116,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
   <!-- Three JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script type="text/javascript" src="js/three.js"></script>
   <script type="text/javascript" src="js/app.js"></script>
+  <script type="text/javascript" src="js/animation.js"></script>
 
   </script>
 </body>
