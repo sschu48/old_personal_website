@@ -56,6 +56,14 @@
 	color: var(--black);
 }
 
+.normal
+{
+	font-family: 'SF-Display';
+	font-weight: normal;
+	font-size: 24px;
+	color: var(--black);
+}
+
 .w-50
 {
 	width: 50%;
@@ -106,6 +114,7 @@
 	color: var(--gray-03);
 	font-family: inherit;
 	font-size: inherit;
+	z-index: 1;
 }
 
 /* Intro Section */ 
@@ -185,6 +194,25 @@
 	flex-grow: 1;
 }
 
+.button {
+	background-color: var(--black);
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 20px;
+
+	transition: transform 250ms;
+	z-index: -10;
+  }
+
+.button:hover
+{
+	transform: translateY(-10px);
+}
 
 /* Mobile */
 @media (max-width: 1000px) {
