@@ -145,7 +145,7 @@
 	margin-top: 0;
 }
 
-/* main prject */
+/* main project */
 .main-container
 {
 	padding: 5%;
@@ -207,6 +207,106 @@
 .button:hover
 {
 	transform: translateY(-10px);
+}
+
+/* Pilot Page*/
+.fly-with-sean
+{
+	text-decoration: none;
+	background: linear-gradient(to right, #405DE6 , #E1306C);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+.intro-section
+{
+	text-align: center;
+	position: relative;
+}
+
+.intro-section-text
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: var(--white);
+  
+}
+
+.intro-section-img
+{
+	padding: 5%;
+	text-align: center;
+	object-fit: contain;
+	width: 500px;
+	border-radius: 15px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;	
+}
+
+.intro-section-bottom-text
+{
+	padding-top: 0%;
+
+}
+
+.ig-section
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	vertical-align: center;
+	text-align: left;
+	height: auto;
+	padding-top: 5%;
+}
+
+.ig-section-text
+{
+	margin-top: 10%;
+}
+
+.ig-image
+{
+	height: 25em;
+	border-radius: 10px;
+}
+
+.ig-spacing
+{
+	width: 30%;
+}
+
+.ig-h1
+{
+	margin-bottom: 2%;
+}
+
+.ig-at
+{
+	margin-top: 2%;
+}
+
+.bottom-section
+{
+	padding-top: 15%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.bottom-text
+{
+	padding-top: 10%;
+	text-align: center;
+}
+
+.bottom-img
+{
+	width: 400px;
 }
 
 /* Mobile */
