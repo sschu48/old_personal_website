@@ -478,6 +478,24 @@
 	transform: translateY(-10px);
 }
 
+/* Contact Page */
+.center-cont
+{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 10%;
+}
+
+.contact-btns
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 30%;
+	padding-right: 30%;
+}
+
 /* Mobile */
 @media (max-width: 1000px) {
 	.row {
