@@ -459,6 +459,15 @@
 
 .dev-display-text
 {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+
+}
+
+.inner-dev-text
+{
+	position: relative;
 	display: flex;
 	flex-direction: row;
 	grid-template-columns: repeat(12, 1fr);
